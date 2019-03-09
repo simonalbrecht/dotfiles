@@ -1,0 +1,51 @@
+[user]
+  name = Simon Albrecht
+  email = simon@albrecht.me
+
+[github]
+  user = simonalbrecht
+
+
+[credential]
+  helper = store
+
+[apply]
+  # Detect whitespace errors when applying a patch
+  whitespace = fix
+
+[core]
+  editor = code
+  excludesfile = ~/.gitignore-global
+
+# Make git rebase safer on macOS
+  trustctime = false
+
+# Prevent showing non-ascii filenames
+  precomposeunicode = false
+
+# Prevent line ending problems
+  autocrlf = input
+
+[color]
+  ui = auto
+
+[diff]
+  # Use more time to create better diffs. E.g. matching opening/closing braces
+	# from neighbour functions.
+	algorithm = patience
+
+	# Tells Git to detect renames. If set to "true", it will enable basic
+	# rename detection. If set to "copies", it will detect copies, as well.
+	renames = copies
+
+[mergetool]
+  keepBackup = false
+
+[push]
+  simple = true
+
+[pull]
+  rebase = true
+
+[help]
+  autocorrect = 1
