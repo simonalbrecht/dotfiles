@@ -40,3 +40,10 @@ alias json='python -m json.tool'
 # Networking
 alias ip='dig +short myip.opendns.com @resolver1.opendns.com'
 alias local-ip='ipconfig getifaddr en0'
+
+# Folders
+alias desk='cd ~/Desktop'
+alias proj='cd ~/Projects'
+alias docs='cd ~/Documents'
+alias hass='proj && cd home-assistant-config'
+alias lab='proj && cd homelab2'
