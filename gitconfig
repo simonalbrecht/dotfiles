@@ -1,10 +1,9 @@
 [user]
   name = Simon Albrecht
-  email = simon@albrecht.me
+  email = simon@simonalbrecht.ch
 
 [github]
   user = simonalbrecht
-
 
 [credential]
   helper = store
