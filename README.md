@@ -4,6 +4,8 @@
 1. `pip install dotfiles`
 2. Clone the repository to `~/.dotfiles`
 3. `dotfiles --sync`
+4. `chsh -s /bin/zsh`
+5. Install Powerline compatible fonts
 
 ## Install Homebrew dependencies
 1. Install [Homebrew](https://brew.sh/)
