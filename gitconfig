@@ -1,9 +1,5 @@
 [user]
   name = Simon Albrecht
-  email = simon@simonalbrecht.ch
-
-[github]
-  user = simonalbrecht
 
 [credential]
   helper = store
@@ -48,3 +44,9 @@
 
 [help]
   autocorrect = 1
+
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
