@@ -18,7 +18,7 @@ brew "curl"
 brew "ffmpeg"
 brew "git"
 brew "git-extras"
-brew "git-flow-avh
+brew "git-flow-avh"
 brew "git-lfs"
 brew "gotop"
 brew "hugo"
