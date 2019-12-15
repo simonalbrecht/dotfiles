@@ -1,6 +1,7 @@
 # https://github.com/Powerlevel9k/powerlevel9k
 antibody bundle bhilburn/powerlevel9k
 
+DEFAULT_USER="simon"
 POWERLEVEL9K_MODE="nerdfont-complete"
 POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(context dir vcs)
 POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(status root_indicator background_jobs time)
