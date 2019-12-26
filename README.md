@@ -6,17 +6,10 @@
 3. `dotfiles -R ~/.dotfiles --sync`
 4. `chsh -s /bin/zsh`
 
-## Configure iTerm
-1. Install [Fira Code](https://github.com/tonsky/FiraCode) font
-2. Use Molokai profile
-3. Select Fira Code 13pt Regular as iTerm font
-4. Turn on "Enable Ligatures"
-
 ## Install Homebrew dependencies
 1. Install [Homebrew](https://brew.sh/)
 2. `cd ~/.dotfiles`
 3. `brew bundle`
-
 
 ## Override global configurations (machine specific)
 1. Create `~/.local.zsh`
