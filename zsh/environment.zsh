@@ -9,10 +9,10 @@ export LOGNAME='simon'
 if [[ -n $SSH_CONNECTION ]]; then
 	export EDITOR='vi'
 else
-	export EDITOR='vi'
+	export EDITOR='vim'
 fi
 
-export VISUAL='code'
+export VISUAL='vim'
 
 # Highlight section titles in manual pages.
 export LESS_TERMCAP_md="${yellow}";
