@@ -18,5 +18,3 @@ autoload -U compinit
 compinit -i
 
 PATH=/usr/local/bin:/usr/local/sbin:$PATH
-
-eval "$(pyenv init -)"

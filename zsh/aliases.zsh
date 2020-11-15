@@ -46,3 +46,6 @@ alias desk='cd ~/Desktop'
 alias proj='cd ~/Projects'
 alias docs='cd ~/Documents'
 alias dot='cd ~/.dotfiles'
+
+# Source Code Counting
+alias loc='cloc --vcs git .'

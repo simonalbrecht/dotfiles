@@ -2,3 +2,14 @@ Host *
   UseKeychain yes
   AddKeysToAgent yes
   IdentityFile ~/.ssh/id_rsa
+
+Host router
+  User zeus
+  HostName 10.0.10.1
+
+Host homelab
+  User zeus
+  HostName 10.0.10.2
+
+  User zeus
+  Hostname 10.0.10.10

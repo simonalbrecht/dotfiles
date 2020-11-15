@@ -1,7 +1,7 @@
 # dotfiles
 
 ## How to install
-1. `pip install dotfiles`
+1. `pip3 install dotfiles`
 2. Clone the repository to `~/.dotfiles`
 3. `dotfiles -R ~/.dotfiles --sync`
 4. `chsh -s /bin/zsh`

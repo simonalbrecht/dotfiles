@@ -1,6 +1,7 @@
 [user]
-  name = Simon Albrecht
-  email = simon@simonalbrecht.ch
+	name = Simon Albrecht
+	email = simon@simonalbrecht.ch
+	signingkey = 44309BC37A7A1790D3DC40564489041278EF3538
 
 # https://stackoverflow.com/questions/4220416/can-i-specify-multiple-users-for-myself-in-gitconfig
 [includeIf "gitdir:~/Projects/"]
@@ -9,12 +10,18 @@
 [credential]
   helper = store
 
+[commit]
+	gpgsign = true
+
+[gpg]
+	program = /usr/local/MacGPG2/bin/gpg2
+
 [apply]
   # Detect whitespace errors when applying a patch
   whitespace = fix
 
 [core]
-  editor = code
+  editor = vi
   excludesfile = ~/.gitignore-global
 
 # Make git rebase safer on macOS
@@ -45,7 +52,7 @@
   simple = true
 
 [pull]
-  rebase = true
+  rebase = false
 
 [help]
   autocorrect = 1

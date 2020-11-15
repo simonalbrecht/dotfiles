@@ -9,7 +9,7 @@ export LOGNAME='simon'
 if [[ -n $SSH_CONNECTION ]]; then
 	export EDITOR='vi'
 else
-	export EDITOR='code'
+	export EDITOR='vi'
 fi
 
 export VISUAL='code'
@@ -35,3 +35,5 @@ export PYTHONIOENCODING='UTF-8';
 export NVM_DIR="$HOME/.nvm"
   [ -s "/usr/local/opt/nvm/nvm.sh" ] && . "/usr/local/opt/nvm/nvm.sh"  # This loads nvm
   [ -s "/usr/local/opt/nvm/etc/bash_completion" ] && . "/usr/local/opt/nvm/etc/bash_completion"  # This loads nvm bash_completion
+
+export GPG_TTY=`tty`
