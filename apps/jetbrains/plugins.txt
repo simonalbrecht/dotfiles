@@ -1,0 +1,2 @@
+https://plugins.jetbrains.com/plugin/14751-mac-native-theme
+https://plugins.jetbrains.com/plugin/10044-atom-material-icons
