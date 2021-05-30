@@ -49,3 +49,6 @@ alias dot='cd ~/.dotfiles'
 
 # Source Code Counting
 alias loc='cloc --vcs git .'
+
+# Kubernetes
+alias k="kubectl"
