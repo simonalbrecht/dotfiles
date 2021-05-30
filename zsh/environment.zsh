@@ -18,7 +18,7 @@ export VISUAL='vim'
 export LESS_TERMCAP_md="${yellow}";
 
 export PAGER='less'
-export MANPAGER='less -X';
+export MANPAGER="sh -c 'col -bx | bat -l man -p'" # Colorized man pages
 export TERM="xterm-256color"
 
 # Enable persistent REPL history for `node`.
