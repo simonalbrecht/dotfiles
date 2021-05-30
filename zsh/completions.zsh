@@ -7,6 +7,3 @@ zstyle -e ':completion:*:(ssh|scp|sftp|rsh|rsync):hosts' hosts 'reply=(${=${${(f
 
 # Support for completions for brew etc
 fpath=(/usr/local/share/zsh-completions $fpath)
-
-# Git Extras
-# source /usr/local/opt/git-extras/share/git-extras/git-extras-completion.zsh
