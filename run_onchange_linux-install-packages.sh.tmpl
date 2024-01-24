@@ -4,7 +4,7 @@
 {{ if eq .chezmoi.osRelease.idLike "debian" }}
 # Debian-specific code
 {{ range .packages.linux.debian -}}
-echo {{ . | quote }}
+apt-get install -y {{ . | quote }}
 {{ end -}}
 {{ else if eq .chezmoi.osRelease.idLike "fedora" }}
 # Fedora-specific code
