@@ -1,0 +1,69 @@
+call plug#begin()
+Plug 'dense-analysis/ale'
+Plug 'sheerun/vim-polyglot'
+Plug 'preservim/nerdtree'
+Plug 'preservim/nerdcommenter'
+Plug 'itchyny/lightline.vim'
+Plug 'maximbaz/lightline-ale'
+Plug 'tpope/vim-fugitive'
+Plug 'airblade/vim-gitgutter'
+Plug 'phanviet/vim-monokai-pro'
+call plug#end()
+
+" General
+set shortmess=atI                           " Don't show intro message
+set noerrorbells                            " Disable beeps
+set title                                   " Filenames in title bar
+set showcmd                                 " Show command being typed
+set ttyfast                                 " Optimize for fast terminal connections
+set nocompatible                            " Make vim better
+set number                                  " Line Numbers
+set ruler                                   " Show where we are
+set cursorline                              " Highlight current line
+set nocursorcolumn                          " Speed up syntax highlighting
+set mouse=a                                 " Enable mouse mode
+set wildmenu
+set laststatus=2                            " Use Lightline
+set noshowmode                              " Do now show mode as we have the light line
+
+" File Handling
+set encoding=utf-8 nobomb
+set autoread                                " Automatically read file when changed on disc
+set autowrite                               " Automatically save before :next, :make etc.
+set noswapfile                              " No swap file
+set nobackup                                " No backup
+set nowritebackup                           
+set fileformats=unix,dos,mac                " Prefer Unix over Windows over OS 9 formats
+
+set nowrap
+set tabstop=4
+set shiftwidth=4
+set softtabstop=4
+set expandtab
+set smarttab
+set autoindent
+set backspace=indent,eol,start
+set complete-=i
+
+set binary                                  " Don't add empty newlines at the end of files
+set noeol
+
+" Code Handling
+set nofoldenable                            " Don't fold code
+set showmatch                               " Show matching braces
+
+" Color and Syntax highlighting
+set termguicolors
+colorscheme monokai_pro                     " Color Scheme
+syntax on                                   " Enable syntax highlighting
+filetype plugin indent on                   " Enable filetype detection
+
+let g:lightline = {
+      \ 'colorscheme': 'monokai_pro',
+      \ }
+
+" Searching
+set ignorecase                              " Search case insensitive...
+set smartcase                               " ... but not if it begins with upper case 
+set hlsearch                                " Highlight searches
+set incsearch                               " Highlight when pattern is typed
