@@ -2,11 +2,9 @@
 #!/usr/bin/env sh
 
 {{ if eq .chezmoi.osRelease.idLike "debian" }}
-# Debian-specific code
 {{ range .packages.linux.debian -}}
 sudo apt-get install -y {{ . | quote }}
 {{ end -}}
 {{ else if eq .chezmoi.osRelease.idLike "fedora" }}
-# Fedora-specific code
 {{ end }}
 {{ end }}
