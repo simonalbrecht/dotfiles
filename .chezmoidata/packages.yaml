@@ -52,6 +52,7 @@ packages:
       - 'dash'
   linux:
     debian:
+      - 'fzf'
       - 'zsh'
       - 'apt-transport-https' 
       - 'unattended-upgrades' 
