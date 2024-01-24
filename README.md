@@ -11,7 +11,7 @@
 ## Configuration
 ### Customize Shell Environment
 1. Create `~/.local.zsh`
-2. Add overrides and customizations
+2. Add overrides and customizations. This file will be included by `.zshrc`.
 
 ### Setup different Git Identity
 1. Create `~/Project/.gitconfig`
@@ -31,3 +31,7 @@
 ```
 <email> ssh-rsa <key>
 ```
+
+### Setup different SSH configuration
+1. Create `~/.local-ssh-config`
+2. Add SSH configuration there. It will be included in the global SSH config.
