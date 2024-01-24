@@ -3,9 +3,8 @@ export ZSH=~/.zsh
 # Load homebrew
 if type brew &>/dev/null; then
 	export FPATH=$(brew --prefix)/share/zsh-completions:$FPATH
+	eval "$(/opt/homebrew/bin/brew shellenv)"
 fi
-
-eval "$(/opt/homebrew/bin/brew shellenv)"
 
 # Path
 # ===============================================
