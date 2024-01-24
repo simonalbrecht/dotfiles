@@ -4,8 +4,13 @@
 ### macOS
 1. `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
 2. `eval "$(/opt/homebrew/bin/brew shellenv)"`
-2. `brew install chezmoi`
-3. `chezmoi init --apply https://github.com/simonalbrecht/dotfiles.git`
+3. `brew install chezmoi`
+4. `chezmoi init --apply https://github.com/simonalbrecht/dotfiles.git`
+5. `chsh -s /bin/zsh`
+
+### Debian/Ubuntu
+1. `sudo snap install chezmoi --classic`
+2. `chezmoi init --apply https://github.com/simonalbrecht/dotfiles.git`
 3. `chsh -s /bin/zsh`
 
 ## Configuration
