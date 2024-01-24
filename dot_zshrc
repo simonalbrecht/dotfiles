@@ -15,7 +15,12 @@ PATH=/opt/homebrew/bin:/usr/local/bin:/usr/local/sbin:/usr/bin/:$PATH
 # Plugin Manager
 # ===============================================
 # Load antitode
-source $(brew --prefix)/opt/antidote/share/antidote/antidote.zsh
+if type brew &>/dev/null; then
+	source $(brew --prefix)/opt/antidote/share/antidote/antidote.zsh
+else 
+	source ${ZDOTDIR:-~}/.antidote/antidote.zsh
+fi
+
 antidote load
 
 # Autocompletions
