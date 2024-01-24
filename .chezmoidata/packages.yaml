@@ -50,3 +50,15 @@ packages:
       - 'font-monaspace'
       - 'postman'
       - 'dash'
+  linux:
+    debian:
+      - 'zsh'
+      - 'apt-transport-https' 
+      - 'unattended-upgrades' 
+      - 'ca-certificates' 
+      - 'software-properties-common' 
+      - 'fail2ban' 
+      - 'gpg' 
+      - 'curl' 
+      - 'wget' 
+      - 'git'
