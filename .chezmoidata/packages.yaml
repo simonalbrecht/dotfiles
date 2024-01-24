@@ -48,6 +48,7 @@ packages:
       - 'tailscale'
       - 'docker'
       - 'font-monaspace'
+      - 'font-monaspace-nerd-font'
       - 'postman'
       - 'dash'
   linux:
