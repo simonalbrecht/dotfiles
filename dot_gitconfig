@@ -63,6 +63,8 @@
 
 [push]
   simple = true
+  default = current
+	autoSetupRemote = true
 
 [pull]
   rebase = false
