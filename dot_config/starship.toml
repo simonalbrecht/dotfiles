@@ -1,3 +1,12 @@
+command_timeout = 1000
+
+[username]
+show_always = false
+disabled = false
+
+[directory]
+read_only = " 󰌾"
+
 [aws]
 symbol = "  "
 
@@ -16,11 +25,9 @@ symbol = " "
 [dart]
 symbol = " "
 
-[directory]
-read_only = " 󰌾"
-
 [docker_context]
 symbol = " "
+disabled = true
 
 [elixir]
 symbol = " "
@@ -146,6 +153,7 @@ symbol = "󰟔 "
 
 [ruby]
 symbol = " "
+disabled = true
 
 [rust]
 symbol = " "
@@ -158,3 +166,6 @@ symbol = " "
 
 [zig]
 symbol = " "
+
+[gcloud]
+disabled = true
