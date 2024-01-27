@@ -5,6 +5,6 @@ brew bundle --no-lock --file=/dev/stdin <<EOF
 {{ range .packages.darwin.casks -}}
 cask {{ . | quote }}
 {{ end -}}
-EOF
+EOF || true
 
 {{ end -}}
