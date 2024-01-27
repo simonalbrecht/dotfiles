@@ -1,10 +1,14 @@
 {{ if eq .chezmoi.os "darwin" -}}
 #!/usr/bin/env sh
 
-brew bundle --no-lock --file=/dev/stdin <<EOF
+BUNDLE_FILE=`mktemp`
+
+cat > $BUNDLE_FILE <<EOF
 {{ range .packages.darwin.casks -}}
 cask {{ . | quote }}
 {{ end -}}
-EOF || true
+EOF
+
+brew bundle --no-lock --file=$BUNDLE_FILE || true
 
 {{ end -}}
