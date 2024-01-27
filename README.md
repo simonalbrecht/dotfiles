@@ -10,9 +10,10 @@
 
 ### Debian/Ubuntu
 1. `sudo snap install chezmoi --classic`
-2. `git clone --depth=1 https://github.com/mattmc3/antidote.git ${ZDOTDIR:-~}/.antidote`
-3. `chezmoi init --apply https://github.com/simonalbrecht/dotfiles.git`
-4. `chsh -s /bin/zsh`
+2. `curl -sS https://starship.rs/install.sh | sh`
+3. `git clone --depth=1 https://github.com/mattmc3/antidote.git ${ZDOTDIR:-~}/.antidote`
+4. `chezmoi init --apply https://github.com/simonalbrecht/dotfiles.git`
+5. `chsh -s /bin/zsh`
 
 ## Configuration
 ### Customize Shell Environment

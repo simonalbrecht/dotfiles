@@ -25,6 +25,7 @@ packages:
       - 'yq'
       - 'zsh'
       - 'volta'
+      - 'starship'
     casks:
       - '1password'
       - 'appcleaner'
