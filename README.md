@@ -21,7 +21,7 @@
 2. Add overrides and customizations. This file will be included by `.zshrc`.
 
 ### Setup different Git Identity
-1. Create `~/Project/.gitconfig`
+1. Create `~/Projects/.gitconfig`
 
 ```ini
 [user]
