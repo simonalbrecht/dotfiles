@@ -143,6 +143,8 @@ eval "$(starship init zsh)"
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 [ -f ~/.iterm2_shell_integration.zsh ] && source ~/.iterm2_shell_integration.zsh
 
+eval "$(zoxide init zsh)"
+
 # Local Configuration
 # ===============================================
 # Load local configuration overrides

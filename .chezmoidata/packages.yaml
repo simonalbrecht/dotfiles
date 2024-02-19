@@ -26,6 +26,7 @@ packages:
       - 'zsh'
       - 'volta'
       - 'starship'
+      - 'zoxide'
     casks:
       - '1password'
       - 'appcleaner'
