@@ -54,7 +54,7 @@ set showmatch                               " Show matching braces
 
 " Color and Syntax highlighting
 set termguicolors
-colorscheme monokai_pro                     " Color Scheme
+" colorscheme monokai_pro                     " Color Scheme
 syntax on                                   " Enable syntax highlighting
 filetype plugin indent on                   " Enable filetype detection
 
