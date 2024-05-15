@@ -91,3 +91,6 @@
   line-numbers = true
   side-by-side = true
   navigate = true
+
+[init]
+  defaultBranch = main
