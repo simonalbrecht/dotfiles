@@ -61,9 +61,6 @@
 [mergetool]
   keepBackup = false
 
-[merge]
-  ff = false
-
 [push]
   simple = true
   default = current
