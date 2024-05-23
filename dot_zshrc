@@ -126,6 +126,17 @@ alias loc='cloc --vcs git .'
 # Kubernetes
 alias k="kubectl"
 
+# Git
+alias gbr='git branch -v'
+alias gco='git checkout'
+alias gf='git fetch'
+alias glog='git log --date-order --pretty="format:%C(yellow)%h%Cblue%d%Creset %s %C(white) %an, %ar%Creset"'
+alias gl='glog --graph'
+alias gla='gl --all'
+alias gp='git push'
+alias grh='git reset --hard'
+alias gs='git show'
+
 # Autocompletions
 # ===============================================
 autoload -U compinit && compinit -i
