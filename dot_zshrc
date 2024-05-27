@@ -11,6 +11,9 @@ fi
 # Add Homebrew to path
 PATH=/opt/homebrew/bin:/usr/local/bin:/usr/local/sbin:/usr/bin/:$PATH
 
+# Add gnu grep to path
+PATH="/opt/homebrew/opt/grep/libexec/gnubin:$PATH"
+
 # Plugin Manager
 # ===============================================
 # Load antitode
